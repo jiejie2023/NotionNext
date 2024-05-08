@@ -348,7 +348,7 @@ function TodayCard({ cRef, siteInfo }) {
           isCoverUp
             ? 'opacity-100 cursor-pointer'
             : 'opacity-0 transform scale-110 pointer-events-none'
-        } shadow transition-all duration-200 today-card h-full bg-[#0E57D5] rounded-xl relative overflow-hidden flex items-end`}>
+        } shadow transition-all duration-200 today-card h-full bg-[#000000] rounded-xl relative overflow-hidden flex items-end`}>
         <div
           id='today-card-info'
           className='z-10 flex justify-between w-full relative text-white p-10 items-end'>
@@ -364,7 +364,7 @@ function TodayCard({ cRef, siteInfo }) {
             onClick={handleClickMore}
             className={`'${
               isCoverUp ? '' : 'hidden pointer-events-none '
-            } flex items-center px-3 h-10 justify-center bg-[#425aef] hover:bg-[#4259efcb] transition-colors duration-100 rounded-3xl`}>
+            } flex items-center px-3 h-10 justify-center bg-[#000000] hover:bg-[#000000] transition-colors duration-100 rounded-3xl`}>
             <PlusSmall
               className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'}
             />
