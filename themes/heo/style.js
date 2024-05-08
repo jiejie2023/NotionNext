@@ -7,6 +7,11 @@
 const Style = () => {
   return (
     <style jsx global>{`
+
+     .notion {
+            font-size: 1.2rem;
+      }
+    
       body {
         background-color:   #EEECFC;
         overflow-x: hidden;
