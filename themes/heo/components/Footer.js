@@ -13,7 +13,7 @@ const Footer = ({ title }) => {
         >
 
             {/* 颜色过度区 */}
-            <div id='color-transition' className='h-32 bg-gradient-to-b from-[#f7f9fe] to-white  dark:bg-[#1a191d] dark:from-inherit dark:to-inherit'>
+            <div id='color-transition' className='h-32 bg-gradient-to-b from-[#EEECFC] to-white  dark:bg-[#1a191d] dark:from-inherit dark:to-inherit'>
 
             </div>
 
@@ -25,10 +25,10 @@ const Footer = ({ title }) => {
             <br />
 
             {/* 底部页面信息 */}
-            <div id='footer-bottom' className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#30343f]'>
+            <div id='footer-bottom' className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#EEECFC] dark:bg-[#30343f]'>
 
                 <div id='footer-bottom-left'>
-                   NotionNext {siteConfig('VERSION')} <i className='fas fa-copyright' /> {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' /> <a href={siteConfig('LINK')} className='underline font-bold  dark:text-gray-300 '>{siteConfig('AUTHOR')}</a>.
+                   Jiwly'blog {siteConfig('VERSION')} <i className='fas fa-copyright' /> {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' /> <a href={siteConfig('LINK')} className='underline font-bold  dark:text-gray-300 '>{siteConfig('AUTHOR')}</a>.
                 </div>
 
             <div id='footer-bottom-right'>
