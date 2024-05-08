@@ -24,11 +24,11 @@ export default function PostHeader({ post, siteInfo }) {
                     height: 100%;
                     top: 0;
                     left: 0;
-                    box-shadow: 110px -130px 300px 60px #0060e0 inset;
+                    box-shadow: 110px -130px 300px 60px #2d3748 inset;
                 }
             `}</style>
 
-            <div style={{ backdropFilter: 'blur(15px)' }} className={'bg-gray-800] absolute top-0 w-full h-full py-10 flex justify-center items-center'}>
+            <div style={{ backdropFilter: 'blur(15px)' }} className={'bg-[#2d3748] absolute top-0 w-full h-full py-10 flex justify-center items-center'}>
 
                 {/* 文章背景图 */}
                 <div id='post-cover-wrapper' style={{ filter: 'blur(15px)' }} className='coverdiv lg:translate-x-96 opacity-50 lg:rotate-12'>
