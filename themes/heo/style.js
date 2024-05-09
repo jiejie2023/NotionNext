@@ -13,7 +13,7 @@ const Style = () => {
       }
 
 .notion {
-  @apply tracking-wide; /* 添加字母间距 */
+ tracking-wide; /* 添加字母间距 */
 }
 
     
