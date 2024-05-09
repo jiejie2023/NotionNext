@@ -6,3 +6,13 @@
 .fa-info:before {
     content: "\f05a";
 }
+
+/*设置鼠标样式*/
+body {
+    cursor: url(https://www.dreamwings.cn/wp-content/themes/kotha/images/1.cur),
+        default;
+}
+a,img {
+    cursor: url(https://jsd.cdn.zzko.cn/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
