@@ -11,6 +11,11 @@ const Style = () => {
      .notion {
             font-size: 1.05rem;
       }
+
+.notion {
+  @apply tracking-wide; /* 添加字母间距 */
+}
+
     
       body {
         background-color:   #EEECFC;
