@@ -108,7 +108,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '联系我🤝',
   HEO_SOCIAL_CARD_TITLE_2: '向上社交，随时欢迎！',
   HEO_SOCIAL_CARD_TITLE_3: '点击添加我的wechat📩',
-  HEO_SOCIAL_CARD_URL: 'https://jiely.ac.cn/about',
+  HEO_SOCIAL_CARD_URL: 'https://jiely.ac.cn/article/about#4aed3a69c8364c21be0db45b3fcacac0',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
