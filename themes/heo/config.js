@@ -49,7 +49,7 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://jiely.ac.cn/',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://jiely.ac.cn/category,
+  HEO_INFO_CARD_URL3: 'https://jiely.ac.cn/category',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
 
