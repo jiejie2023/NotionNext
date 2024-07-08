@@ -76,7 +76,7 @@ const MenuItem = ({ href, name }) => {
   const selected = category === name
   return (
     <div
-      className={`whitespace-nowrap mr-2 duration-200 transition-all font-bold px-2 py-0.5 rounded-md text-gray-900 dark:text-black hover:text-black hover:bg-[#ffffff] dark:hover:bg-yellow-600 ${selected ? 'text-white bg-[#000000] dark:bg-[#1e1e1e]' : ''}`}>
+      className={`whitespace-nowrap mr-2 duration-200 transition-all font-bold px-2 py-0.5 rounded-md text-gray-900 dark:text-white hover:text-black hover:bg-green-400 dark:hover:bg-yellow-600 ${selected ? 'text-white bg-green-400 dark:bg-yellow-600' : ''}`}>
       <Link href={href}>{name}</Link>
     </div>
   )
