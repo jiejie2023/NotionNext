@@ -22,7 +22,7 @@ const TagGroups = ({ tags, className }) => {
                         className={'cursor-pointer inline-block  whitespace-nowrap'}
                     >
                         <div className={`${className || ''} 
-                            ${selected ? 'text-white bg-gray-900 dark:bg-yellow-600' : ''}  
+                            ${selected ? 'text-white bg-green-400 dark:bg-yellow-600' : ''}  
                             flex items-center hover:bg-green-400 dark:hover:bg-yellow-600 hover:scale-110 hover:text-white rounded-lg px-2 py-0.5 duration-150 transition-all`}
                         >
                             <div className="text-lg">{tag.name} </div>
