@@ -8,10 +8,10 @@ const Style = () => {
   return (
     <style jsx global>{`
     
-      body {
-        background-color: #EEECFC;
+  body {
+        background-color:  #EEECFC;
         overflow-x: hidden;
-      }
+    }
 
       // 公告栏中的字体固定白色
       #theme-heo #announcement-content .notion {
