@@ -37,8 +37,8 @@ const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
 
             <div
               className={
-                ' font-bold  overflow-x-hidden dark:text-white hover:text-green-499 px-2 duration-200 w-full rounded ' +
-                ' hover:text-indigo-400 cursor-pointer'
+                ' font-bold  overflow-x-hidden dark:text-white hover:text-green-400 px-2 duration-200 w-full rounded ' +
+                ' hover:text-green-400 cursor-pointer'
               }>
               <div className='line-clamp-2 menu-link'>{post.title}</div>
             </div>
