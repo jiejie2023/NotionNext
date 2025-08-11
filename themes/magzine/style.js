@@ -53,8 +53,6 @@ const LayoutBase = props => {
   const { children } = props
   const [tocVisible, changeTocVisible] = useState(false)
   const searchModal = useRef(null)
-  const router = useRouter() // 使用 Next.js 的路由
-  const isHome = router.pathname === '/' // 判断当前是否是主页
 
   return (
     <ThemeGlobalMagzine.Provider
@@ -64,9 +62,7 @@ const LayoutBase = props => {
 
       <div
         id='theme-magzine'
-        className={`${siteConfig('FONT_STYLE')} ${
-          isHome ? 'home-background' : 'article-background' // 根据是否是主页应用不同背景样式
-        } w-full h-full min-h-screen flex flex-col justify-between dark:text-gray-300 scroll-smooth`}>
+        className={`${siteConfig('FONT_STYLE')} bg-white dark:bg-hexo-black-gray w-full h-full min-h-screen flex flex-col justify-between dark:text-gray-300 scroll-smooth`}>
         <main
           id='wrapper'
           className='relative flex flex-col justify-between w-full h-full mx-auto'>
@@ -109,7 +105,7 @@ const LayoutIndex = props => {
   const newPosts = posts.slice(3, 7)
 
   return (
-    <div className='pt-10 md:pt-18 bg-white/80 dark:bg-black/80 backdrop-blur-sm'>
+    <div className='pt-10 md:pt-18'>
       {/* 首屏宣传区块 */}
       <Hero posts={posts} />
 
