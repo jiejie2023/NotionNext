@@ -50,7 +50,7 @@ const CONFIG = {
           href: 'https://jiely.ac.cn'
         }
       ]
-  ],
+  ]
 
   // 旧版本顶部菜单
   MAGZINE_MENU_CATEGORY: true, // 显示分类
