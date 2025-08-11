@@ -38,7 +38,6 @@ import TagItemMini from './components/TagItemMini'
 import TouchMeCard from './components/TouchMeCard'
 import CONFIG from './config'
 import { Style } from './style'
-import { useRouter } from 'next/router'
 
 // 主题全局状态
 const ThemeGlobalMagzine = createContext()
@@ -52,8 +51,6 @@ export const useMagzineGlobal = () => useContext(ThemeGlobalMagzine)
  */
 const LayoutBase = props => {
   const { children } = props
-  const router = useRouter()
-  const isHome = router.pathname === '/'
   const [tocVisible, changeTocVisible] = useState(false)
   const searchModal = useRef(null)
 
@@ -65,7 +62,7 @@ const LayoutBase = props => {
 
       <div
         id='theme-magzine'
-        className={`${siteConfig('FONT_STYLE')} ${isHome ? 'home-background' : 'article-background'} w-full h-full min-h-screen flex flex-col justify-between dark:text-gray-300 scroll-smooth`}>
+        className={`${siteConfig('FONT_STYLE')} bg-white dark:bg-hexo-black-gray w-full h-full min-h-screen flex flex-col justify-between dark:text-gray-300 scroll-smooth`}>
         <main
           id='wrapper'
           className='relative flex flex-col justify-between w-full h-full mx-auto'>
@@ -108,7 +105,7 @@ const LayoutIndex = props => {
   const newPosts = posts.slice(3, 7)
 
   return (
-    <div className='pt-10 md:pt-18 bg-white/80 dark:bg-black/80 backdrop-blur-sm'>
+    <div className='pt-10 md:pt-18'>
       {/* 首屏宣传区块 */}
       <Hero posts={posts} />
 
